@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Быки и коровы</title>
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link 
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+    crossorigin="anonymous"
+  >
+</head>
+<body>
+  <main class="main">
+    <h1 class="heading">Быки и коровы</h1>
+    <h2 class="secondary-heading">Правила игры</h2>
+    <ul class="list">
+      <li class="list__item">Компьютер загадывает случайное число из 4 разных цифр;</li>
+      <li class="list__item">Ваша задача угадать их;</li>
+      <li class="list__item">Компьютер будет давать подсказки (введённое число: сколько быков, сколько коров);</li>
+      <li class="list__item">Бык значит, что число угадано верно и находится на своём месте;</li>
+      <li class="list__item">Корова - число верно угадано, но не своем месте;</li>
+      <li class="list__item">У вас всего 5 попыток;</li>
+      <li class="list__item">
+        <strong>Пример:</strong> загадано 1234, введено 1345, результат: 1 бык (единица угадана на своём месте) и 2 коровы (3 и 4 присутствуют, но не на своих местах);
+      </li>
+    </ul>
+    <button type="button" class="btn-start btn btn-primary">Начать играть</button>
+  </main>
+  <script type="text/javascript" src="scripts/main.js"></script>
+</body>
+</html>
